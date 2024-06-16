@@ -10,7 +10,9 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 mkdir -p ~/.config/nvim
 cp init.vim ~/.config/nvim/
 
-bash
+source ~/.bashrc
+source ~/.bash_profile
+
 # download and install Node.js
 nvm install 20
 
