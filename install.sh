@@ -7,6 +7,10 @@ sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.
 # installs nvm (Node Version Manager)
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
 
+mkdir -p ~/.config/nvim
+cp init.vim ~/.config/nvim/
+
+bash
 # download and install Node.js
 nvm install 20
 
